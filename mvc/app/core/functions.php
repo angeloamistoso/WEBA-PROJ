@@ -6,3 +6,4 @@ function show($stuff)
     print_r(explode('/', $_GET['url']));
     echo '</pre>';
 }
+>

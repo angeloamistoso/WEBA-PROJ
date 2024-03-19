@@ -27,7 +27,7 @@ class App
      require '../app/controller/' . $this->controller . '.php';
 // =======
      require '../app/controllers/' . $this->controller . '.php';
-// >>>>>>> master
+// >>>>>> master
      $this->controller = new $this->controller;
 
      if (isset($url[1])) {

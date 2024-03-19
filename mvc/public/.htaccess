@@ -7,4 +7,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 Rewrite
 =======
 RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
->>>>>>> master
+>>>>>> master
